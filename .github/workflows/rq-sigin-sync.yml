@@ -3,7 +3,7 @@ name: rq-sigin-sync
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 11 * * *'
+    - cron: '31 11 * * *'
 
 env:
   GITHUB_NAME: igithubmak
